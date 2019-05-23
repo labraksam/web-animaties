@@ -1,6 +1,8 @@
 # web-animaties
 school course
 
+Link: https://labraksam.github.io/web-animaties/index.html
+
 README
 
 Uitleg kunstwerk
