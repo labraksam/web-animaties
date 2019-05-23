@@ -1,6 +1,9 @@
+html {
+    height: 100%; 
+}
+
 body {
     background: linear-gradient(to bottom, #AEAFA7, #595361);
-    background-size: 120% 120%;
     opacity: 1;
 }
 
