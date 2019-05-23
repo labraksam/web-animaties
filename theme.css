@@ -1,0 +1,218 @@
+body {
+    background: linear-gradient(to bottom, #AEAFA7, #595361);
+    background-size: 120% 120%;
+    opacity: 1;
+}
+
+/*TWAN*/
+.backgroundanimation2 {
+    animation: space 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    animation: turn2 0.8s cubic-bezier(0,1.62,1,-0.79) both;
+}
+@keyframes space {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+.tryout {
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+.articletext {
+    align-items: center;
+    display: flex;
+}
+
+.text {
+    margin: auto;
+    transition: background 300ms ease-in;
+}
+
+.textbox:hover {
+    background: pink; 
+}
+
+.articlemouse {
+    align-items: center; 
+    display: flex;
+}
+
+.mouse {
+    margin: auto; 
+}
+
+.articlehair {
+    align-items: center; 
+    display: flex;
+}
+
+.hair {
+    margin: auto; 
+    margin-top: -430px;
+}
+
+/*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+.hair:hover { 
+    transition: 2s ease-in;  
+}
+
+
+.articleeyes {
+    align-items: center; 
+    display: flex;
+}
+
+.eyes {
+    margin: auto; 
+    margin-top: -300px;
+}
+
+/*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+.eyes:hover {
+    transform: scale(1.5);
+    transition: 2s ease-in;
+}
+
+
+.articlemouth {
+    align-items: center; 
+    display: flex;
+    pointer-events: none; 
+}
+
+.mouth {
+    margin: auto; 
+    margin-top: -200px;
+}
+
+/*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+.mouth:hover {
+    filter: grayscale(100%);
+}
+
+
+.articlestone {
+    align-items: center; 
+    display: flex;
+    pointer-events: none; 
+}
+
+.stone {
+    margin: auto; 
+    margin-top: -10px;
+    z-index: -1;
+}
+
+.world {
+    fill: salmon;  
+}
+
+/*https://cubic-bezier.com/*/
+.animate {
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-7px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(7px, 0, 0);
+  }
+}
+
+/*https://cubic-bezier.com/*/
+/*https://www.w3schools.com/css/css3_animations.asp*/
+.turn {
+    animation: turn 5s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes turn {
+    0% {
+        transform: rotate(0); 
+    }
+    
+    100% {
+        transform: rotate(14400deg)
+    }
+}
+
+@keyframes turn2 {
+    0% {
+        transform: rotate(0); 
+    }
+    
+    100% {
+        transform: rotate(1440deg)
+    }
+}
+
+
+/*https://www.gradient-animator.com/*/
+.gradient {
+    background: linear-gradient(89deg, #25322f, #f2f2f2, #ff9c9c);
+    background-size: 600% 600%;
+    animation: background 4s ease forwards;
+}
+@keyframes background { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.red {
+        background: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80);
+}
+
+.blue {
+        background: url(https://images.unsplash.com/photo-1485841938031-1bf81239b815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=628&q=80);
+}
+
+.yellow {
+        background: url(https://images.unsplash.com/photo-1521911528923-9c3838123490?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+}
+
+.green {
+        background: url(https://images.unsplash.com/photo-1528491836309-55b4a140b78a?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80);
+}
+
+
+
+/*
+
+.gradient {
+    animation: achtergrondgradient 3s ease-in; 
+}
+
+@keyframes achtergrondgradient {
+    0% { background-color: black; 
+}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
